@@ -1,6 +1,6 @@
 FROM adisaputra10/nginx-php
 
-WORKDIR /www/html
+WORKDIR var/www/html
 
 COPY . .
 
